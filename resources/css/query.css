@@ -36,8 +36,7 @@
         grid-column: 1/3;
     }
     #contact {
-        background-position: -124px 52px;
-       
+        background-position: -124px 52px;    
     }
 }
 
@@ -48,10 +47,9 @@
     }
     .experience-grid,
     .contact-grid  {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
-
 
 @media screen and (max-width: 480px) {
     html {
@@ -60,6 +58,20 @@
 
     .process-grid, .work-grid, .testimonial-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .process-grid {
+        gap: 2rem;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .work-grid {
+        width: 90%;
+        margin: auto;
+    }
+
+    .work-filter {
+        line-height: 6rem;
     }
 
     #testimonial {

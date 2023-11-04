@@ -8,7 +8,6 @@ Description: A simple portfolio template.
 */
 
 /* Common CSS */
-
 * {
   margin: 0;
   padding: 0;
@@ -91,7 +90,6 @@ nav {
   float: left;
 }
 
-
 /* NAVIGATION */
 .menu {
   float: right;
@@ -136,7 +134,6 @@ nav.uk-sticky-fixed {
   color: #fff;
   text-transform: uppercase;
   font-size: 3rem;
- 
   margin: 1rem 0;
   display: inline-block;
   text-decoration: none;
@@ -146,13 +143,12 @@ nav.uk-sticky-fixed {
   color: #ff2b4a;
 }
 
-
 .hero-content-box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 117rem;
+  width: 90%;
   text-align: center; 
 }
 .hero-content-box h1 {
@@ -326,26 +322,31 @@ hr {
 
 
 /* WORK (PORTFOLIO) */
+#work {
+  background-color: #10c6fc;
+}
+
 .work-filter {
   margin-bottom: 4rem;
   text-align: center;
 }
 .work-filter button {
-  background-color: #000;
-  color: #fff;
+  background-color: #14B0E0;
+  color: #000;
   padding: 1rem;
   text-transform: capitalize;
-  border: 1px solid #000;
+  border: 1px solid #14B0E0;
+  border-radius: 5px;
   cursor: pointer;
   margin-left: 1rem;
 }
 .work-filter button:hover {
-  background-color: #ff2b4a;
-  border: 1px solid #ff2b4a;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 button.mixitup-control-active {
-  background-color: #ff2b4a;
-  border: 1px solid #ff2b4a;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 .uk-lightbox {
   background-color: rgba(0,0,0,0.7);
@@ -398,7 +399,6 @@ button.mixitup-control-active {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-
 .contact-grid-item:nth-child(1),
 .nested-contact-grid-item {
   background: rgba(0, 0, 0, 0.8);
@@ -409,7 +409,6 @@ h3 {
   text-transform: uppercase;
   color: #fff;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -422,16 +421,13 @@ textarea {
   background: transparent;
   color: #fff;
 }
-
 form textarea {
   height: 20rem;
 }
-
 .submit-btn {
-  text-align: right;
+  text-align: center;
   margin-top: 3rem;
 }
-
 .nested-ct-grid {
   display: grid;
   grid-template-columns: auto;
